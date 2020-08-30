@@ -14,8 +14,7 @@ COL=$(( 24*$2 ))
 Xvfb :99 -fbdir ../xvfb -screen 0 ${1}x${2}x8 &
 export DISPLAY=:99
 
-chmod +x $5
-$5 &
+xterm -hold -e $5 &
 
 sleep $4
 
