@@ -3,8 +3,8 @@
 cd $GITHUB_WORKSPACE
 mkdir ../xvfb
 
-ROW=$(( 24*$1 ))
-COL=$(( 24*$2 ))
+ROW=$(( 24*$1 + 100 ))
+COL=$(( 24*$2 + 100 ))
 
 Xvfb :99 -fbdir ../xvfb -screen 0 ${1}x${2}x8 &
 export DISPLAY=:99
