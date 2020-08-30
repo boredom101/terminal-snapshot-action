@@ -1,6 +1,6 @@
 name: 'GUI Screenshot'
 author: 'Boredom101'
-description: 'Takes a screenshot of a graphical program'
+description: 'Takes a screenshot of a terminal command'
 inputs:
   rows:
     description: 'Rows of text the terminal should have'
