@@ -13,7 +13,7 @@ inputs:
   sleep:
     description: 'How long the command needs to get to the desired state'
     required: true
-  program:
+  command:
     description: 'A path to the command to run'
 runs:
   using: 'docker'
